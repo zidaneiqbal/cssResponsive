@@ -122,7 +122,6 @@ div.header{
     width: 100%;
     position: sticky;
     background: rgb(0, 100, 33);
-    margin-bottom: 3px;
 }
 
 div.header ul{
@@ -155,13 +154,209 @@ div.header img{
     padding-left: 20px;
 }
 
-div.head{
+div.head {
     width: 100%;
-    height: 500px;
-    background: url("Alun-alun.jpg");
+    height: 550px;
+    float: left;
+    background: url(Lapindo.jpg) no-repeat center;
     background-size: cover;
-    background-repeat: initial;
-    padding: 0;
+    margin-top: 0;
+}
+
+div.head .gelap{
+    width: 100%;
+    height: 550px;
     margin: 0;
+    padding: 0;
+    background: #000;
+    opacity: 0.4;
+}
+
+div.head .desc{
+    position: absolute;
+    left: 43%;
+    top: 180px;
+    text-align: center;
+}
+
+div.head .desc h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+div.head .desc label{
+    color: green;
+}
+
+div.head .desc span{
+    color: rgb(255, 85, 85);
+}
+
+div.about{
+    width: 100%;
+    height: 250px;
+}
+
+div.about .left{
+    width: 70%;
+    height: 250px;
+    float: left;
+}
+
+div.about .left h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: green;
+    text-align: center;
+}
+
+div.about .left h2{
+    font-size: 15px;
+    text-align: right;
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+}
+
+div.about .right{
+    width: 25%;
+    height: 250px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+div.about .right img{
+    width: 250px;
+    height: auto;
+    padding-left: 20px;
+}
+
+div.kuliner{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+div.kuliner h3{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    background: green;
+}
+
+div.kuliner .kupang{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+div.kuliner .kupang h1{
+    text-transform: uppercase;
+    color: green;
+}
+
+div.kuliner .kupang img{
+    width: 125px;
+    border-radius: 50%;
+}
+
+div.kuliner .kupang h2{
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+}
+
+div.wisata{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+div.wisata h1{
+    color: #fff;
+    background: green;
+}
+
+div.wisata .subwisata .left{
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+div.wisata .subwisata img{
+    width: 200px;
+    border: 3px solid green;
+    border-radius: 20%;
+}
+
+div.wisata .subwisata .right{
+    width: 75%;
+    height: auto;
+    float: left;
+    color: green;
+}
+
+div.wisata .subwisata .right h3{
+    font-size: 15px;
+    color: grey;
+}
+
+div.wisata .subwisata span{
+    width: 100%;
+    height: 20px;
+    background: green;
+    float: left;
+    margin-bottom: 10px;
+}
+
+div.budaya{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+div.budaya h1{
+    color: white;
+    background: green;
+}
+
+div.budaya .subbudaya .left{
+    width: 80%;
+    height: auto;
+    float: left;
+    border-bottom: 5px solid green;
+}
+
+div.budaya .subbudaya .left h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: green;
+}
+
+div.budaya .subbudaya .left h3{
+    font-size: 15px;
+    color: grey;
+}
+
+div.budaya .subbudaya .right{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+div.budaya .subbudaya .right img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.footer{
+    background: green;
+    width: 100%;
+    height: 20px;
+    margin-top: 25px;
+    color: #000000;
     float: left;
 }
